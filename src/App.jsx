@@ -3,9 +3,10 @@ import { useState } from 'react'
 
 import './App.css'
 
-const [puppies, setPuppies] = useState(puppyList)
+export default function App(){console.log(puppyList)
+const [puppies, setPuppies] = useState(puppyList);
 
-export default function App(){
+
       return (
             <div className="App">
             {
