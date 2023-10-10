@@ -1,8 +1,11 @@
+import { puppyList } from './data.js'
+
 import './App.css'
 
- 
-      <div>
-     
-      </div>
 
-export default App
+export default function App(){console.log(puppyList) 
+      return (
+            <div> </div>
+      );
+
+}
